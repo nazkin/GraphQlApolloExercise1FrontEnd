@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { graphql } from 'react-apollo';
 import {addArtistMutation, getArtistsQuery} from '../graphql/queries';
-
+import './forms.css';
 
 
 const AuthorForm = (props)=>  {
@@ -26,7 +26,7 @@ const AuthorForm = (props)=>  {
     }
 
     return (
-        <form className="p-5 my-3" onSubmit={submitArtistHandler}>
+        <form className="p-5 my-3 aForm" onSubmit={submitArtistHandler}>
             <div className="form-group">
                 <label >Name</label>
                 <input type="text" className="form-control" value={name} onChange={(e)=> {setName(e.target.value)}}/>

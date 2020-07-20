@@ -1,7 +1,32 @@
 .list{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #daedf4;
+}
+
+.item{
+    border-bottom: 2px solid #cdcdcd;
+    background: #daedf4;
+    width: 100%;
+    color: darkcyan;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-evenly;
+}
+.artist-name{
+    color: goldenrod;
+    font-weight: 800;
+    font-style: italic;
+    float: right;
+}
+.song-name{
+    color: cadetblue;
+    font-weight: 800;
+    float: left;
 }

@@ -4,7 +4,14 @@
   width: 100%;
 }
 .titleforms{
-  background-color: #d3d3d3;
+  background: rgb(205,205,205);
+  background: linear-gradient(153deg, rgba(205,205,205,1) 0%, rgba(198,158,89,1) 97%);
   padding: 10px;
   
+}
+
+.jumbo{
+  background: rgb(185,232,233) !important;
+  background: linear-gradient(347deg, rgba(185,232,233,1) 0%, rgba(218,237,244,1) 100%) !important;
+  border-left: 4px solid goldenrod;
 }

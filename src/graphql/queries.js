@@ -15,7 +15,10 @@ const getSongsQuery = gql`
         songs{
             name,
             genre,
-            id
+            id,
+            artist {
+                name
+            }
         }
     }
 `;

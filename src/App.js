@@ -16,7 +16,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
     <div className="App">
-      <div className="jumbotron">
+      <div className="jumbotron jumbo">
         <h1>Personal Music Management Tool </h1>
       </div>
       <div className="row">
